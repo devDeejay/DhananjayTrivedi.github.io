@@ -1,0 +1,214 @@
+html,body{
+    margin:0;
+	width: 100%;
+	height: 100%;
+    display: table;
+}
+body{
+    background: url(Images/mac.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+.page{
+    height: 780px;
+}
+.intro{
+    text-align: center;
+    padding-top: 70px;
+    height: 250px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.header{
+    background: url(Images/background1.jpg) no-repeat center center fixed; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img{
+  max-width: 100%; 
+}
+.contents{
+    margin-top: 30%;
+}
+.introPara{
+    text-align: center;
+    width:50%;
+    height: 780px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.name{
+    font-family: 'Bungee Shade', cursive;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+.para{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.profilePicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    -ms-background-position-x: center;
+    -ms-background-position-y: bottom;
+    background-position: center bottom;
+}
+footer{
+    color: white;
+    display: table-row;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight:900;
+    background: url('Images/Thankyou.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+footer p{
+    padding-top: 20%;
+    text-shadow: 3px 5px 10px #FF0033;
+}
+footer img{
+	height: 30px;
+}
+
+/* Welcome Screen */
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{ 
+    background: url('Images/WelcomeBackground.jpg') no-repeat center center fixed;
+    background-size: cover; 
+}
+ .flyInText {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.flyInText li {
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 5px 8px 10px #222;
+    font-weight: 300;
+    font-size: 120px;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.flyInText  li:last-child {
+    margin-right: 0;
+}
+.flyInText .hidden li {
+    opacity: 0;
+}
+.flyInText.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.flyInText.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.flyInText.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.flyInText.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.flyInText.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.flyInText.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.flyInText.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }  
+
+/*Skills Page */
+.skillIntro{
+  
+}
+.skills{
+    background: url(Images/skillsWallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.skill{
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.skill ol li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skill ol{
+    text-align: center;
+    padding: 15px;
+}
+
+.frontEnd,.backEnd{
+    float: left;
+    margin-left: 5%;
+}
+.programming,.android{
+    float: right;
+    margin-right: 5%;
+}
+.skillContainer{
+    padding-top: 100px;
+    max-width: 1143px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+}
+.skill h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+/* Resume Page */
+.line{
+    padding: 100px 0;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-family: 'Bree Serif', serif;
+}
+.resume h1{
+    font-size: 60px;
+    background: rgba(255,255,255,0.9);
+}
+.resumePic{
+    display: block;
+    margin-top: 100px;
+    margin: 0 auto;
+    border: 20px solid black;
+}
+.resume a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
