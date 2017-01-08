@@ -17,11 +17,11 @@ body{
 }
 .intro{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
     height: 250px;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
 }
 .header{
@@ -43,6 +43,7 @@ img{
     width:50%;
     height: 780px;
     background: rgba(0,0,0,0.4);
+    border-radius: 0% 0px;
     padding: 40px;
     color: white;
     margin: 0 auto;
@@ -134,14 +135,10 @@ footer img{
 .flyInText.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }  
 
 /*Skills Page */
-.skillIntro{
-  
-}
 .skills{
     background: url(Images/skillsWallpaper.jpg) no-repeat center center fixed;
     background-size: cover;
 }
-
 .skill{
     box-sizing: border-box;
     color: white;
@@ -151,7 +148,6 @@ footer img{
     height: 250px;
     background-color: rgba(0,0,0,0.2);
 }
-
 .skill ol li {
     list-style: none;
     margin-top: 10px;
@@ -179,9 +175,10 @@ footer img{
     box-sizing: border-box;
 }
 .skill h1{
-    padding-top: 20px;
+    padding: 20px 0 10px 0;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    color:#37474F;
     font-size: 35px;
 }
 
@@ -200,15 +197,54 @@ footer img{
 .resume h1{
     font-size: 60px;
     background: rgba(255,255,255,0.9);
+    color: black;
+    height: 150px;
+    padding-top:40px; 
 }
 .resumePic{
     display: block;
     margin-top: 100px;
     margin: 0 auto;
-    border: 20px solid black;
+    border: 25px solid black;
 }
 .resume a{
     text-decoration: none;
     color:white;
     font-size: 25px;
+    text-align: center;
+}
+
+/*Work Page */
+.work{
+    background: linear-gradient(45deg, skyblue,lightgreen);
+}
+
+.worksContainer{
+    display: block;
+    padding-top: 200px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.works{
+    display: inline-flex;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    padding: 40px 20px;
+}
+/*Contact Page */
+.contact{
+    background: url('Images/contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.contact p,h1{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: black;
+    background-color: rgba(255,255,255,0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.contactContent{
 }
