@@ -4,21 +4,25 @@ html,body{
 	height: 100%;
     display: table;
 }
+a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+*{
+    box-sizing: border-box;
+}
 body{
     background: url(Images/mac.jpg) no-repeat center center fixed;
     background-attachment: fixed;
     background-size: cover;
 }
-*{
-    box-sizing: border-box;
-}
 .page{
-    height: 780px;
+    height: 110vh;
 }
 .intro{
     text-align: center;
-    padding-top: 100px;
-    height: 250px;
+    height: 30vh;
+    padding-top: 13vh;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -41,7 +45,7 @@ img{
 .introPara{
     text-align: center;
     width:50%;
-    height: 780px;
+    height:110vh;
     background: rgba(0,0,0,0.4);
     border-radius: 0% 0px;
     padding: 40px;
@@ -78,8 +82,7 @@ footer{
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
     font-weight:900;
@@ -87,7 +90,7 @@ footer{
     background-size: cover;
 }
 footer p{
-    padding-top: 20%;
+    padding-top: 25%;
     text-shadow: 3px 5px 10px #FF0033;
 }
 footer img{
@@ -213,38 +216,28 @@ footer img{
     font-size: 25px;
     text-align: center;
 }
-
-/*Work Page */
-.work{
-    background: linear-gradient(45deg, skyblue,lightgreen);
+.resume{
+    height: 1900px;
 }
 
-.worksContainer{
-    display: block;
-    padding-top: 200px;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-.works{
-    display: inline-flex;
-    flex-direction: row;
-    width: 400px;
-    height: 200px;
-    padding: 40px 20px;
-}
 /*Contact Page */
 .contact{
-    background: url('Images/contact.jpg') no-repeat center center fixed;
+    background: url('Images/contact2.jpg') no-repeat center center fixed;
     background-size: cover;
 }
-.contact p,h1{
+.contactContent{
+    font-family: 'Droid Sans', sans-serif;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
     color: black;
-    background-color: rgba(255,255,255,0.6);
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-}
-.contactContent{
+    position: relative;
+    top:20%;
+    transform: translateY(-30%);
+    background: rgba(255,255,255,0.8);
+    padding: 100px;
+    padding-top: 140px;
+    border-radius: 70% 0px;
+    box-sizing: border-box;
 }
