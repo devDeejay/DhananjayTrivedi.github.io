@@ -40,7 +40,9 @@ img{
   max-width: 100%; 
 }
 .contents{
-    margin-top: 30%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .introPara{
     text-align: center;
@@ -56,25 +58,16 @@ img{
 .name{
     font-family: 'Bungee Shade', cursive;
     line-height: 1;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .desc{
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .para{
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 20px;
-    padding-bottom: 20px;
-}
-.profilePicture{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    -ms-background-position-x: center;
-    -ms-background-position-y: bottom;
-    background-position: center bottom;
+    padding-bottom: 200px;
 }
 footer{
     color: white;
