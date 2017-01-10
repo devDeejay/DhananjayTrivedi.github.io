@@ -58,7 +58,7 @@ img{
 .name{
     font-family: 'Bungee Shade', cursive;
     line-height: 1;
-    padding-bottom: 30px;
+    margin-top: 100px;
 }
 .desc{
     font-family: 'Montserrat', sans-serif;
@@ -138,22 +138,22 @@ footer img{
 .skill{
     box-sizing: border-box;
     color: white;
-    margin-top: 20px;
     margin-left: 20px;
+    margin-top: 40px;
     width: 500px;
-    height: 250px;
-    background-color: rgba(0,0,0,0.2);
+    height: 300px;
+    border-radius: 90px 50%;
+    background-color: rgba(0,0,0,0.7);
 }
 .skill ol li {
     list-style: none;
-    margin-top: 10px;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
 .skill ol{
     text-align: center;
-    padding: 15px;
+    padding: 35px;
 }
 
 .frontEnd,.backEnd{
@@ -165,17 +165,19 @@ footer img{
     margin-right: 5%;
 }
 .skillContainer{
-    padding-top: 100px;
-    max-width: 1143px;
-    margin: 0 auto; 
+    position: relative;
+    top: 5%;
+    transform: translateY(-50%);
+    max-width: 1200px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 .skill h1{
-    padding: 20px 0 10px 0;
+    padding:  50px 0 10px 0;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color:#37474F;
-    font-size: 35px;
+    color:white;
+    font-size: 25px;
 }
 
 /* Resume Page */
