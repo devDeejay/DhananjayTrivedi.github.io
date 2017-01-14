@@ -236,3 +236,19 @@ footer img{
     border-radius: 70% 0px;
     box-sizing: border-box;
 }
+
+/*Calendar*/
+.calendar{
+    height: 250px;
+    width: 100%;
+    color: white;
+}
+.calendar a{
+    text-decoration: none;
+}
+.calendar a p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+}
