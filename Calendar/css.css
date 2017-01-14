@@ -98,6 +98,7 @@ ol p {
     text-align: center;
     width: 600px;
     position: fixed;
+    background-color: rgba(0,0,0,0.9);
 }
 ol{
     padding-top: 40px
