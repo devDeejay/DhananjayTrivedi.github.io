@@ -29,13 +29,13 @@ html,body{
     font-family: monospace;
 }
 #calendar-month-year{
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Source Code Pro', monospace; 
     padding: 5px;
 }
 #calendar-dates table td{
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     border: 2px solid black;
 }
 #calendar-dates table{
