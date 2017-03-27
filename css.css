@@ -14,7 +14,7 @@ html, body,{
 }
 
 .bannerImg{
-    height: 40vh;
+    height: 70vh;
      background: url('girlMetro.jpg') no-repeat center center fixed; 
     background-attachment: fixed;
     -webkit-background-size: cover;
