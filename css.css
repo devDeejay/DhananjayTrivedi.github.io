@@ -15,7 +15,7 @@ html, body,{
 
 .bannerImg{
     height: 70vh;
-     background: url('girlMetro.jpg') no-repeat center center fixed; 
+     background: url('scholarsSunset.jpg') no-repeat center center fixed; 
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -68,4 +68,96 @@ html, body,{
 }
 body{
     margin: auto;
+}
+
+
+/* College Page */
+.bannerCollege{
+    background: url('university.jpg') no-repeat center center fixed; 
+}
+
+.banner{
+    margin-top: -33px;
+    height: 40vh;
+     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bannerHeading{
+    padding-top: 15vh;
+    color: aliceblue;
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+  box-sizing: border-box;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.wrapper {
+  text-align: center;
+  position: relative;
+  height: 80px;
+  font-size: 0;
+    padding-top: 5vh;
+  -webkit-transform: translateY();
+          transform: translateY();
+}
+
+.search {
+  padding: 0 30px;
+  font-size: 18px;
+  width: 60%;
+  max-width: 400px;
+  height: 80px;
+  border: 1px solid #b3b3b3;
+  border-radius: 20px 0 0 20px;
+}
+
+.submit {
+  cursor: pointer;
+  border: none;
+  background: url("http://thesuiteworld.com/wp-admin/maint/search-icon-white-png-540.png") no-repeat center center, #1E1E20;
+  background-size: 35px 35px;
+  border-radius: 0 20px 20px 0;
+  padding: 15px 25px;
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+}
+
+/*Schools Page*/
+.bannerSchools{
+    background: url('school.jpg') no-repeat center center fixed; 
+}
+/*Institution Page*/
+.bannerInstitutions{
+    background: url('institute.jpg') no-repeat center center fixed; 
+}
+/*Skills Page*/
+.bannerSkills{
+    background: url('skills.jpg') no-repeat center center fixed; 
+}
+/*Careers Page*/
+.bannerCareers{
+    background: url('working.jpg') no-repeat center center fixed; 
+}
+/*Motivation Page*/
+.bannerMotivation{
+    background: url('motivation.jpg') no-repeat center center fixed; 
+}
+.banner{
+    margin-top: -33px;
+    height: 40vh;
+     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
