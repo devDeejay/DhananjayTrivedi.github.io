@@ -71,16 +71,18 @@ body{
     margin: auto;
 }
 
-
 /* College Page */
 .bannerCollege{
     background: url('university.jpg') no-repeat center center fixed; 
 }
 
+.headingCenter{
+    padding-top: 12vh;
+}
+
 .banner{
-    margin-top: -33px;
     height: 40vh;
-     background-attachment: fixed;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -88,7 +90,7 @@ body{
 }
 
 .bannerHeading{
-    padding-top: 15vh;
+    background: rgba(0,0,0,0.4);
     color: aliceblue;
     font-family: 'Signika', sans-serif;
     font-size: 40px;
@@ -154,7 +156,6 @@ input {
     background: url('motivation.jpg') no-repeat center center fixed; 
 }
 .banner{
-    margin-top: -33px;
     height: 40vh;
      background-attachment: fixed;
     -webkit-background-size: cover;
