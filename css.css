@@ -28,7 +28,8 @@ html, body,{
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #2E86C1;
+    color: white;
+    background-color: #2E86C1;
     font-size: 20px;
     font-family: 'Bungee Shade', cursive;
 }
