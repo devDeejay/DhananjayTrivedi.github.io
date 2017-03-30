@@ -24,6 +24,7 @@ html, body,{
 }
 
 .footer{
+    margin-top: 30px;
     display: table-row;
     position: absolute;
     width: 100%;
@@ -144,17 +145,25 @@ input {
     background: url('institute.jpg') no-repeat center center fixed; 
 }
 /*Skills Page*/
+.skillBox{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background: lightgrey;
+    text-align: center;
+}
+.skillBox p{
+  padding-top: 20px;
+}
+.skillBox a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+}
 .bannerSkills{
     background: url('skills.jpg') no-repeat center center fixed; 
 }
-.skillBox{
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  background: lightgrey;
-  border-radius: 20px;
-  text-align: center;
-}
+
 .skillBox p{
   padding-top: 40px;
 }
