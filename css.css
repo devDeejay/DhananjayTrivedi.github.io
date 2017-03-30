@@ -147,6 +147,17 @@ input {
 .bannerSkills{
     background: url('skills.jpg') no-repeat center center fixed; 
 }
+.skillBox{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background: lightgrey;
+  border-radius: 20px;
+  text-align: center;
+}
+.skillBox p{
+  padding-top: 40px;
+}
 /*Careers Page*/
 .bannerCareers{
     background: url('working.jpg') no-repeat center center fixed; 
