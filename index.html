@@ -1,38 +1,99 @@
 <!doctype html>
 <head>
-    <title>Studiedx.com</title>
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Signika:600|Titillium+Web:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Dhananjay Trivedi</title>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Bungee+Shade|Caveat|Indie+Flower|Montserrat|PT+Sans+Caption|Lato|Righteous|Sigmar+One|Bree+Serif|Raleway:900|Droid+Sans:700|Roboto:900|Sigmar+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css"/>
 </head>
 
 <body>
-    <div class="header">
-        <h1>STUDIEDX.COM</h1>
-    </div>
-      <div id="navigation">
-        <ul>
-            <a href="index.html">Home</a>
-            <a href="college.html">Colleges</a>
-            <a href="Schools.html">Schools</a>
-            <a href="Institutions.html">Institutions</a>
-            <a href="skills.html">Develop Skills</a>
-            <a href="careers.html">Explore Careers</a>
-            <a href="motivation.html">Get Motivation</a> 
+    <div class="welcome page">
+        <ul class="flyInText hidden">
+            <li>W</li>
+            <li>E</li>
+            <li>L</li>
+            <li>C</li>
+            <li>O</li>
+            <li>M</li>
+            <li>E</li>
         </ul>
     </div>
-  
-    <div class="bannerImg">
-    </div>
-    <div class="content">
-        <div >
-            <h3 class="heading">What is StudiedX.com ?</h3>
-            <p class="para">Studiedx is a unified platform for improving the judgement / choice of education in India. 
-            We provide students with proper exposure of knowledge about various fields and help them plan a path that will help them achieve their goals in life. We also provide you with an Unbiased opinions about various colleges and help you make the right choice for your education.</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            setTimeout(function() {
+                $('.flyInText').removeClass('hidden');
+            }, 500);
+        })();
+    </script>
+    
+    <div class="header page">
+        <div class = "introPara">
+            <div class="contents">
+                <h1 class="name">Dhananjay Trivedi</h1>
+                <h5 class="desc">Student | Budding Developer | Self-Learner</h5>
+                <p class="para">I am a self taught Developer and I am gaining skills in different domains like Front End Development, Back End Development in LAMP Stack, A beginner level developer of Android Applications and also a Programmer in C,JAVA,and Python. So yeah! I like to learn a lot!</p>
+            </div>
         </div>
     </div>
-    <div class="footer">
-        <h3>Studiedx</h3>
-        <h6>Dhananjay Trivedi</h6>
+    <div class="intro skillIntro">Skills</div>
+    <div class="skills page">
+        <div class="skillContainer">
+        <div class="skill frontEnd"><h1>Front-End Web Development</h1>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+            </ol>
+        </div>
+        <div class="skill android"><h1>Android-App Development</h1>
+            <ol>
+                <li>App Development</li>
+                <li>Java</li>
+                <li>XML</li>
+            </ol>
+        </div>
+            <div class="skill backEnd"><h1>Back-End Web Development</h1>
+            <ol>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ol>
+        </div>
+            <div class="skill programming"><h1>Programming</h1>
+            <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+            </ol>
+        </div>
+        </div>
     </div>
+    
+    <div class="intro skillIntro">Resume</div>
+    <div class="resume page">    
+        <a href="Images/resume.pdf"><img class="resumePic" src="Images/resume.png"></a>
+    </div>
+    
+    <div class="contact page">
+        <h1 class="intro">Contact</h1>
+        <div class="contactContent">
+            <p>I am available currently for a website development job and I am looking for some project to work on. I can develop good responsive websites.<br>
+            You can contact me on my Email <a href="mailto:dhananjayt772@gmail.com">dhananjayt772@gmail.com</a><br>
+            I am also actively available on Telegram<a href="https://www.telegram.me/deajay">@Deajay</a>
+            </p>
+        </div>
+    </div>
+    
+     <div class = "calendar page">
+        <a href="Calendar/index.html"><p>Link to my Achievements Calendar</p></a>
+    </div>
+     
+    <footer class="page">
+        <p>
+            Created With <img src="Images/heart.png"> By Dhananjay Trivedi
+        </p>
+    </footer>
 </body>
-</html><script type="application/ecmascript" src="js.js"></script>
+
+<script src="js.js" type="application/javascript" /></script>
+</html>
