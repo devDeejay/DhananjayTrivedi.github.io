@@ -1,8 +1,8 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
+*   Dhananjay Trivedi Resume For Github
+*   url: dhananjaytrivedi.github.io
+*   10-10-2018
 =====================================================================
 
    TOC:
@@ -11,10 +11,9 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   f. MyQuotes Section
+   g. Contact Section
+   h. Footer
 
 ===================================================================== */
 
@@ -899,26 +898,6 @@ call-to-action .button {
    left: 18px;
    top: 17px;
 }
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
