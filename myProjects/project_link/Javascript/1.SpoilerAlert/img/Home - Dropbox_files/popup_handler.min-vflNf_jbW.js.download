@@ -1,0 +1,2 @@
+define(["require","exports","external/underscore"],function(e,t,r){"use strict";function n(e){var t=r.uniqueId(),n=function(t){var r;try{r=JSON.parse(t.data)}catch(e){return}r&&"db:profile_service:auth_complete"===r.type&&e(r.payload)};return window.addEventListener("message",n),i[t]=n,t}function a(e){var t=i[e];t&&(delete i[e],window.removeEventListener("message",t))}var i={};t.addAuthCompleteListener=n,t.removeAuthCompleteListener=a});
+//# sourceMappingURL=popup_handler.min.js-vflC5x3Yf.map

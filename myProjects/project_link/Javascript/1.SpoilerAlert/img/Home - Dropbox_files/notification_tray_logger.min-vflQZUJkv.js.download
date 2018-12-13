@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/ajax"],function(e,n,t){"use strict";function a(e){var n={event_name:"tray_popup_shown",badge_count:e};o(n)}function o(e){t.SilentBackgroundRequest({url:"/log/notif_tray_events",data:{event_dict:JSON.stringify(e)}})}n.logTrayOpen=a});
+//# sourceMappingURL=notification_tray_logger.min.js-vflVMf3yb.map

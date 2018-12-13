@@ -1,0 +1,4 @@
+Sites to take ideas
+
+https://www.pythonanywhere.com/registration/register/beginner/ 
+For SignUp for, how the Javascript and CSS works along in Password Verification.
