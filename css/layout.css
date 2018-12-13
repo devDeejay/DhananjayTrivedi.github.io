@@ -20,6 +20,10 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
+.home_icons {
+    height: 35px;
+    padding-top: 10px;
+}
 
 body { background: #0f0f0f; }
 
@@ -32,7 +36,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background.jpg) no-repeat center;
+   background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/background.jpg) no-repeat center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
